@@ -1,0 +1,130 @@
+<nav class="navbar">
+    <div class="logo">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0QTkwRTIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC07LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6Ij48L3BhdGg+PHBvbHlsaW5lIHBvaW50cz0iNy41IDQuMjEgMTIgNi44MSAxNi41IDQuMjEiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iNy41IDE5Ljc5IDEyIDE3LjE5IDE2LjUgMTkuNzkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjEyIiB5MT0iMjIuMDgiIHgyPSIxMiIgeTI9IjEyIj48L2xpbmU+PC9zdmc+" alt="VidyAI++ Logo" id="logo">
+        <h1>VidyAI++</h1>
+    </div>
+    <div class="nav-controls">
+        <button class="language-selector">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0QTkwRTIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCI+PC9jaXJjbGU+PGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiPjwvbGluZT48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC07LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6Ij48L3BhdGg+PHBvbHlsaW5lIHBvaW50cz0iNy41IDQuMjEgMTIgNi44MSAxNi41IDQuMjEiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iNy41IDE5Ljc5IDEyIDE3LjE5IDE2LjUgMTkuNzkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjEyIiB5MT0iMjIuMDgiIHgyPSIxMiIgeTI9IjEyIj48L2xpbmU+PC9zdmc+" alt="Language">
+            <span>Select Language</span>
+        </button>
+        <button class="voice-control" id="voiceControl">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0QTkwRTIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC07LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6Ij48L3BhdGg+PHBvbHlsaW5lIHBvaW50cz0iNy41IDQuMjEgMTIgNi44MSAxNi41IDQuMjEiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iNy41IDE5Ljc5IDEyIDE3LjE5IDE2LjUgMTkuNzkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjEyIiB5MT0iMjIuMDgiIHgyPSIxMiIgeTI9IjEyIj48L2xpbmU+PC9zdmc+" alt="Voice Control">
+        </button>
+    </div>
+</nav>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="main-title">Welcome to VidyAI++</h1>
+            <p class="subtitle">Your AI-Powered Learning Companion</p>
+            <button class="cta-button" (click)="showTranslator()">Start Learning Journey</button>
+        </div>
+    </section>
+
+    <section class="translator-interface" style="display: none;">
+        <div class="translation-row">
+            <div class="translation-column source-column">
+                <div class="language-select">
+                    <label>SOURCE LANGUAGE:</label>
+                    <select id="sourceLanguage">
+                        <option value="en">English</option>
+                        <option value="hi">Hindi</option>
+                        <option value="te">Telugu</option>
+                        <option value="ta">Tamil</option>
+                    </select>
+                </div>
+                <textarea id="sourceText" placeholder="Enter text to translate..."></textarea>
+                <div class="text-controls">
+                    <span class="character-count">0 / 5000</span>
+                    <div class="document-upload">
+                        <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                            Upload Document
+                        </button>
+                        <input type="file" id="fileInput" style="display: none;" onchange="handleFileUpload(this)" accept=".txt,.docx,.pdf">
+                        <span class="supported-formats">Supported formats: PDF, DOCX, TXT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="translate-column">
+                <button class="translate-btn" >
+                    <span class="translate-icon">→</span>
+                    <span class="translate-text">Translate</span>
+                </button>
+            </div>
+
+            <div class="translation-column target-column">
+                <div class="language-select">
+                    <label>TARGET LANGUAGE:</label>
+                    <select id="targetLanguage">
+                        <option value="hi">Hindi</option>
+                        <option value="te">Telugu</option>
+                        <option value="ta">Tamil</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+                <div id="translationResult" class="translation-result"></div>
+                <div class="download-controls">
+                    <button class="download-btn" data-format="txt">
+                        <span class="download-icon">↓</span> TXT
+                    </button>
+                    <button class="download-btn" data-format="docx">
+                        <span class="download-icon">↓</span> DOCX
+                    </button>
+                    <button class="download-btn" data-format="pdf">
+                        <span class="download-icon">↓</span> PDF
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="learning-dashboard">
+        <div class="persona-card">
+            <h2>Your Learning Profile</h2>
+            <div class="learning-style">
+                <div class="style-indicator"></div>
+                <p>Learning Style: <span id="learningStyle">Visual</span></p>
+            </div>
+            <div class="progress-stats">
+                <div class="streak-counter">
+                    <span class="streak-number">0</span>
+                    <span class="streak-label">Day Streak</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-history-section">
+            <h3>Recent Translations</h3>
+            <div class="search-history-list" id="searchHistory">
+                <!-- Search history will be populated here -->
+            </div>
+        </div>
+
+        <div class="chat-interface">
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your question or click mic to speak...">
+                <button class="send-btn" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="mentor-section">
+        <h2>Your AI-Matched Mentors</h2>
+        <div class="mentor-cards">
+            <!-- Mentor cards will be dynamically populated -->
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>VidyAI++ - Empowering Education Through AI</p>
+        <div class="offline-status">
+            <span id="connectionStatus">✓ Online</span>
+        </div>
+    </div>
+</footer>
